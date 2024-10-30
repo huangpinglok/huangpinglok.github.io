@@ -1,0 +1,48 @@
+h1 {
+    font-size: 20px;
+    color: #FFF;
+    background-color: #069;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #06C;
+    /* 
+border-bottom-style:solid;
+border-bottom-width: 1px;
+border-bottom-color:#06C; 
+*/
+    /* 下面1行為上面3行合併的寫法*/
+    border-bottom: solid 1px #06c;
+    /* Padding (與上下左右的距離) */
+    /*
+padding:全;
+padding:上下 左右;
+padding:上 左右 下;
+padding: 上 右 下 左; 
+*/
+    padding: 5px 0px;
+}
+
+p {
+    font-size: 16px;
+    /* 行高 */
+    line-height: 1.6;
+    /* 首行縮排 */
+    text-indent: 32px;
+}
+
+ul li {
+    font-size: 16px;
+    background-image: url(images/icon_ul.gif);
+    background-repeat: no-repeat;
+    background-position: left 10px;
+    list-style-type: none;
+    line-height: 1.6;
+    padding-left: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
